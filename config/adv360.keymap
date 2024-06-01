@@ -41,8 +41,8 @@
         default_layer {
             bindings = <
  &kp BACKSLASH     &kp N1    &kp N2          &kp N3              &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6               &kp N7           &kp N8    &kp N9     &kp N0  &kp MINUS
-       &kp TAB      &kp Q     &kp W  &mt LEFT_ALT E  &mt LEFT_COMMAND R   &kp T               &none                                                                &kp F5   &kp Y  &mt RIGHT_COMMAND U  &mt RIGHT_ALT I     &kp O      &kp P   &kp LBKT
-       &kp ESC      &kp A     &kp S         &lt 5 D             &lt 4 F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL     &kp F6   &kp H              &lt 4 J          &lt 5 K     &kp L   &kp SEMI    &kp SQT
+       &kp TAB      &kp Q   &lt 2 W  &mt LEFT_ALT E  &mt LEFT_COMMAND R   &kp T               &none                                                                &kp F5   &kp Y  &mt RIGHT_COMMAND U  &mt RIGHT_ALT I   &lt 2 O      &kp P   &kp LBKT
+       &kp ESC      &kp A   &lt 1 S         &lt 5 D             &lt 4 F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL     &kp F6   &kp H              &lt 4 J          &lt 5 K     &kp L   &kp SEMI    &kp SQT
      &kp LSHFT      &kp Z     &kp X           &kp C               &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N                &kp M        &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
          &mo 2  &kp GRAVE  &kp CAPS        &kp LEFT           &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE                       &kp UP         &kp DOWN  &kp RBKT  &kp EQUAL      &mo 2
             >;
