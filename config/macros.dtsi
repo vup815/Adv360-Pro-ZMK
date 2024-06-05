@@ -1,3 +1,9 @@
+macro_switch_mandarin: macro_switch_mandarin{
+compatible = "zmk,behavior-macro";
+label = "macro_switch_mandarin";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp SPACE>;
+};
 macro_search_web: macro_search_web{
 compatible = "zmk,behavior-macro";
 label = "macro_search_web";
