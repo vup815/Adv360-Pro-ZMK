@@ -2,7 +2,7 @@ macro_switch_mandarin: macro_switch_mandarin{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_mandarin";
 #binding-cells = <0>;
-bindings = <&kp RC(SPACE)>;
+bindings = <&kp RC(SPACE)>, <&tog 4>;
 };
 macro_search_web: macro_search_web{
 compatible = "zmk,behavior-macro";
