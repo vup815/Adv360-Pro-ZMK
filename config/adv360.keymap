@@ -38,7 +38,7 @@
             bindings = <
 &kp BACKSLASH  &kp N1          &kp N2     &kp N3    &kp N4     &kp N5  &tog 1                                                              &mo 3              &kp N6  &kp N7   &kp N8    &kp N9                  &kp N0             &kp LEFT_BRACKET
 &kp ESC        &kp APOSTROPHE  &kp COMMA  &kp DOT   &kp P      &kp Y   &tog 4                                                              &kp F6             &kp F   &kp G    &kp C     &kp R                   &kp L              &kp EQUAL
-&kp TAB        &kp A           &kp O      &lt 2 E   &lt 5 U    &kp I   &kp SLASH         &none               &none       &none  &none      &macro_search_web  &kp D   &lt 5 H  &kp T     &kp N                   &kp S              &kp MINUS
+&kp TAB        &kp A           &kp O      &lt 2 E   &lt 5 U    &kp I   &kp SLASH         &kp BACKSPACE       &none       &none  &none      &macro_search_web  &kp D   &lt 5 H  &kp T     &kp N                   &kp S              &kp MINUS
 &kp LSHFT      &kp SEMICOLON   &kp Q      &kp J     &kp K      &kp X                                         &none       &none                                &kp B   &kp M    &kp W     &kp V                   &kp Z              &kp RSHFT
 &mo 2          &kp GRAVE       &kp CAPS   &kp LEFT  &kp RIGHT          &kp LEFT_COMMAND  &mt LEFT_ALT SPACE  &tog 4      &none  &kp ENTER  &kp RCTRL                  &kp UP   &kp DOWN  &macro_switch_mandarin  &kp RIGHT_BRACKET  &mo 2
             >;
@@ -76,11 +76,11 @@
 
         layer_qwerty__4 {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3   &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0     &trans
-&trans  &kp Q   &kp W   &kp E    &kp R   &kp T   &trans                                      &trans  &kp Y   &kp U   &kp I      &kp O    &kp P      &trans
-&trans  &kp A   &kp S   &lt 2 D  &kp F   &kp G   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &trans
-&trans  &kp Z   &kp X   &kp C    &kp V   &kp B                   &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
-&trans  &trans  &trans  &trans   &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans     &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0     &trans
+&trans  &kp Q   &kp W   &kp E   &kp R   &kp T   &trans                                      &trans  &kp Y   &kp U   &kp I      &kp O    &kp P      &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &kp G   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &trans
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans     &trans
             >;
         };
 
